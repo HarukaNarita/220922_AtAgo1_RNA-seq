@@ -1,0 +1,98 @@
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 8 BAM files                                      ||
+||                                                                            ||
+||                           AGO1_3_39bp._sorted_rmblack.bam                  ||
+||                           AGO1_4_39bp._sorted_rmblack.bam                  ||
+||                           Col_1_39bp._sorted_rmblack.bam                   ||
+||                           Col_2_39bp._sorted_rmblack.bam                   ||
+||                           ago1_1_39bp._sorted_rmblack.bam                  ||
+||                           ago1_2_39bp._sorted_rmblack.bam                  ||
+||                           deltaN_1_9_39bp._sorted_rmblack.bam              ||
+||                           deltaN_4_1_39bp._sorted_rmblack.bam              ||
+||                                                                            ||
+||             Output file : AtAgo1_RNA-seq_featureCounts_snoRNA.txt          ||
+||                 Summary : AtAgo1_RNA-seq_featureCounts_snoRNA.txt.summary  ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Arabidopsis_thaliana.TAIR10.54.gff3 (GTF)        ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Arabidopsis_thaliana.TAIR10.54.gff3 ...               ||
+||    Features : 287                                                          ||
+||    Meta-features : 287                                                     ||
+||    Chromosomes/contigs : 5                                                 ||
+||                                                                            ||
+|| Process BAM file AGO1_3_39bp._sorted_rmblack.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 15970790                                             ||
+||    Successfully assigned alignments : 2213 (0.0%)                          ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Process BAM file AGO1_4_39bp._sorted_rmblack.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 18166576                                             ||
+||    Successfully assigned alignments : 2511 (0.0%)                          ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Col_1_39bp._sorted_rmblack.bam...                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 17760234                                             ||
+||    Successfully assigned alignments : 2393 (0.0%)                          ||
+||    Running time : 0.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Col_2_39bp._sorted_rmblack.bam...                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 19657878                                             ||
+||    Successfully assigned alignments : 2213 (0.0%)                          ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ago1_1_39bp._sorted_rmblack.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 21784836                                             ||
+||    Successfully assigned alignments : 2397 (0.0%)                          ||
+||    Running time : 0.28 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ago1_2_39bp._sorted_rmblack.bam...                        ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 21104842                                             ||
+||    Successfully assigned alignments : 2343 (0.0%)                          ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Process BAM file deltaN_1_9_39bp._sorted_rmblack.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 16995116                                             ||
+||    Successfully assigned alignments : 2079 (0.0%)                          ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Process BAM file deltaN_4_1_39bp._sorted_rmblack.bam...                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 18569000                                             ||
+||    Successfully assigned alignments : 2267 (0.0%)                          ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "AtAgo1_RNA-seq_featureC  ||
+|| ounts_snoRNA.txt.summary"                                                  ||
+||                                                                            ||
+\\============================================================================//

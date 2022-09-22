@@ -1,0 +1,17 @@
+# Program:featureCounts v2.0.3; Command:"featureCounts" "-p" "-a" "DataBase/Arabidopsis_thaliana.TAIR10.54.gff3" "-t" "rRNA" "-g" "ID" "-o" "AtAgo1_RNA-seq_featureCounts_rRNA.txt" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/AGO1_3_39bp._sorted_rmblack.bam" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/AGO1_4_39bp._sorted_rmblack.bam" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/Col_1_39bp._sorted_rmblack.bam" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/Col_2_39bp._sorted_rmblack.bam" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/ago1_1_39bp._sorted_rmblack.bam" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/ago1_2_39bp._sorted_rmblack.bam" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/deltaN_1_9_39bp._sorted_rmblack.bam" "AtAgo1_RNA-seq/220809_RNAseq/Files/bam/deltaN_4_1_39bp._sorted_rmblack.bam" 
+Geneid	Chr	Start	End	Strand	Length	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/AGO1_3_39bp._sorted_rmblack.bam	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/AGO1_4_39bp._sorted_rmblack.bam	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/Col_1_39bp._sorted_rmblack.bam	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/Col_2_39bp._sorted_rmblack.bam	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/ago1_1_39bp._sorted_rmblack.bam	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/ago1_2_39bp._sorted_rmblack.bam	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/deltaN_1_9_39bp._sorted_rmblack.bam	AtAgo1_RNA-seq/220809_RNAseq/Files/bam/deltaN_4_1_39bp._sorted_rmblack.bam
+transcript:AT2G01010.1	2	3706	5513	+	1808	87122	23182	61235	84114	104526	109761	87679	85615
+transcript:AT2G01020.1	2	5782	5945	+	164	1087	1078	1619	1044	1366	1387	1349	1445
+transcript:AT3G41768.1	3	14197677	14199484	+	1808	108143	29055	75187	102685	128718	134377	109574	105925
+transcript:AT3G41979.1	3	14199753	14199916	+	164	1249	1137	1867	1251	1444	1335	1492	1558
+transcript:ATMG00020.1	Mt	8848	11415	-	2568	4592	3509	6357	5293	5399	4384	5435	5541
+transcript:ATMG01380.1	Mt	361062	361179	-	118	23	29	28	42	53	36	40	40
+transcript:ATMG01390.1	Mt	361350	363284	-	1935	10994	10772	10311	11823	19036	17492	12361	11468
+transcript:ATCG00920.1	Pt	101012	102502	+	1491	29279	5391	20915	31901	21575	24108	30295	26684
+transcript:ATCG00950.1	Pt	104691	107500	+	2810	36195	11992	37757	43887	25509	25943	44163	35899
+transcript:ATCG00960.1	Pt	107599	107701	+	103	69	16	97	82	41	43	88	59
+transcript:ATCG00970.1	Pt	107949	108069	+	121	34	4	126	14	2	13	12	11
+transcript:ATCG01160.1	Pt	130580	130700	-	121	26	8	137	10	7	17	14	4
+transcript:ATCG01170.1	Pt	130948	131050	-	103	59	16	123	81	46	63	63	58
+transcript:ATCG01180.1	Pt	131149	133958	-	2810	36653	12006	37376	43796	25515	25663	43602	35741
+transcript:ATCG01210.1	Pt	136147	137637	-	1491	29271	5244	20729	31267	21474	23104	30119	26568
